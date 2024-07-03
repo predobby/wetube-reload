@@ -1,0 +1,5 @@
+{
+  "presets": ["@babel/preset-env"]
+}
+//presets은 babel을 위한 엄청 거대한 플러그인이며, preset-env가 가장 유명하다.(javascript)
+//react와 typescript에서 쓸 쑤 있는 preset도 있다.

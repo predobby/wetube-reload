@@ -1,0 +1,17 @@
+{
+  "watch": ["src"],
+  "ext": "js,json",
+  "ignore": ["node_modules"],
+  "exec": "babel-node src/server.js",
+  "events": {
+    "restart": "echo 'App restarted due to: $FILENAME'"
+  },
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "verbose": true,
+  "watch_options": {
+    "usePolling": true,
+    "interval": 1000
+  }
+}

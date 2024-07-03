@@ -4,7 +4,7 @@
   "description": "The best way to watch videos.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon --legacy-watch --exec babel-node src/server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,15 @@
   "bugs": {
     "url": "https://github.com/predobby/wetube-reload/issues"
   },
-  "homepage": "https://github.com/predobby/wetube-reload#readme"
+  "homepage": "https://github.com/predobby/wetube-reload#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.7",
+    "@babel/node": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "nodemon": "^3.1.4",
+    "chokidar": "^3.6.0"
+  }
 }
